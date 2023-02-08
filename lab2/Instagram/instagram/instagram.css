@@ -1,0 +1,250 @@
+body {
+    color: #262626;
+    background: rgba(var(--b3f,250,250,250),1);
+    position: relative;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+#instaContent {
+    min-width: 500px;
+}
+.main {
+    margin: 32px auto;
+    justify-content: center;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.leftbox {
+    background-image: url(../img/9364675fb26a.png);
+    background-position: 0 0;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+.photos {
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+.image {
+    height: 427px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 240px;
+}
+
+.rightbox {
+    justify-content: center;
+    margin-top: 32px;
+    width: 350px;
+}
+.righttop {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.watermark {
+    margin: 22px auto 12px auto;
+    width: 50%;
+}
+
+.formdiv {
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.loginformdiv {
+    margin-top: 24px;
+}
+.row {
+    margin: 0 40px 6px;
+    position: relative;
+}
+.input {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+.inputEmail {
+    position: relative;
+    background: #fafafa;
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    width: 97%;
+    padding: 9px 0 7px 8px;
+}
+.loginrow {
+    position: relative;
+    margin-top: 12px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+.bluebutton {
+    background-color: #0095f6;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    padding: 5px 9px;
+    width: 100%;
+    height: 30px;
+    opacity: 40%;
+    color: #fff;
+    position: relative;
+}
+.orrow {
+    margin: 20px 40px 18px;
+    position: relative;
+    display:block;
+}
+.line {
+    -webkit-box-flex: 1;
+    flex-shrink: 1;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    vertical-align: baseline;
+    width: 106px;
+}
+.or {
+    flex-direction: column;
+    vertical-align: baseline;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+
+    color: rgb(180, 180, 180);
+    position:relative;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+}
+
+.facebookbutton {
+    justify-content: center;
+    border: 0;
+    background: 0 0;
+    color: #385185;
+    font-weight: 600; 
+    width: 100%;
+    display: flex;
+    position: relative;  
+}
+.fbico {
+    background-image: url(../img/Facebook_logo_36x36.svg.png);
+    background-position: 0 0;
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.forgot {
+    color: rgba(var(--fe0,0,55,107),1);
+    line-height: 14px;
+    margin-top: 24px;
+    font-size:12px;
+    text-align: center;
+    display:grid;
+    text-decoration:none;
+}
+
+.rightbot {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    font-size:14px;
+    padding: 10px 0;
+    display: flex;
+}
+.signupdiv {
+    display: flex;
+}
+.signupbutton {
+    margin: auto 5px;
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.gettheapp {
+    text-align: center;
+}
+.getapp {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.stores {
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+.appstore {
+    margin-right: 8px;
+    height: 40px;
+}
+
+#footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    margin-bottom: 52px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+.copyright {
+    padding-top: 20px;
+}
+.list {
+    align-items: center;
+    justify-content: center;
+}
