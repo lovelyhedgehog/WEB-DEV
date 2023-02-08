@@ -1,0 +1,193 @@
+body, button {
+    font-family: Helvetica, Arial;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#fbContent {
+    background-color: #f0f2f5;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    min-width: 500px;
+}
+#footer {
+    padding-top: 20px;
+}
+#footerContent {
+    color: #8a8d91;
+    margin: 0 auto;
+    width: 980px;
+}
+.main {
+    height: 496px;
+    margin: 0 auto;
+    width: 980px;
+    padding: 20px 0;
+    position: relative;
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+.leftbox {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 400px;
+    margin-right: 0px;
+    padding-right: 32px;
+    vertical-align: top;
+}
+.fblogo {
+    padding: 112px 0 16px;
+    height: 106px;
+    margin: -28px;
+}
+.descr {
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    font-family: Arial;
+    font-weight: normal;
+    padding: 0 0 20px;
+    margin: 0;
+}
+.rightbox {
+    float: right;
+    height: 456px;
+    width: 396px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 20px;
+    margin:0;
+}
+.formbox{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+.loginform {
+    text-align: center;
+}
+.input {
+    display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+}
+.inputEmail, .inputPassword {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 6px;
+    color: rgb(29, 33, 41);
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.bluebuttondiv, .greenbuttondiv {
+    padding-top: 6px;  
+}
+.bluebutton {
+    background-color: #1877f2;
+    font: 400 13.3333px Arial;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0px 8px;
+}
+.bluebutton:hover {
+    background-color: #0b69e4;
+}
+.greenbutton {
+    background-color: #42b72a;
+    font: 400 13.3333px Arial;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 175px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0px 8px;
+}
+.greenbutton:hover {
+    background-color: #33a01e;
+}
+.forgotpassword {
+    margin-top: 16px;
+}
+.forgotpassword a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.regpages {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
+}
+.regpages a {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.listLanguage {
+    padding-top: 8px;
+}
+.footerMenu {
+    margin-left: -20px;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+li {
+    float:left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.copyright {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
