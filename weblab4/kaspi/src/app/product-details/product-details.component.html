@@ -1,0 +1,18 @@
+<h2>Products</h2>
+
+<div *ngIf="product" class="main">
+    <div class="left">
+        <img src={{product.image}}>
+    </div>
+    <div class="right">
+        <h3><a href={{product.link}}>{{product.name}}</a></h3>
+        <p>{{ product.description }}</p>
+        <p class="rating">Rating: {{product.rating}}</p>
+        <share-buttons theme="circles-dark"
+            [include]="['copy', 'telegram','whatsapp']"
+            [showIcon]="true"
+            [showText]="false"
+            url={{product.link}}>
+        </share-buttons>
+    </div>
+</div>
