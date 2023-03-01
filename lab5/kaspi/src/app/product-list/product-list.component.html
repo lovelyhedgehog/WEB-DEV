@@ -1,0 +1,19 @@
+<app-top-bar></app-top-bar>
+
+<select class='form-control' (change)="onCategoryChange($event)" [value]=''>
+    <option value="" selected="selected">All</option>
+    <option value="Samsung">Samsung</option>
+    <option value="Apple">Apple</option>
+    <option value="Xiaomi">Xiaomi</option>
+    <option value="ASUS">ASUS</option>
+</select>
+
+<div *ngFor="let product of filteredProducts" class="main">
+    <div class="left">
+        <img src={{product.image}}>
+    </div>
+    <div class="right">
+        <h3><a [routerLink]="['/products', product.id]">{{product.name}}</a></h3>
+        <p class="rating">Rating: {{product.rating}}</p>
+    </div>
+</div>

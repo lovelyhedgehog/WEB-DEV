@@ -1,0 +1,36 @@
+*{
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.left img{
+    display: inline-block;
+    height: 300px;
+}
+
+.right{
+    display: inline-block;
+    height: 300px;
+}
+
+.rating{
+    color: crimson;
+}
+
+.form-control{
+    margin-top: 30px;
+}
+
+button .like{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/font-awesome-regular-1/512/heart-128.png');
+    background-color: white;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top:-3vw;
+    left: 17vw;
+    width: 1.3vw;
+    height: 3.2vw;
+}
