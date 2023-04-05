@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<h1>{{ categories.name }}</h1>
+    {% if products %}
+        <ul>
+        {% for product in products %}
+            <li><h3><a href="{% url 'api:product_detail' product.id %}">{{ product.name }}</a></h3></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No products are available.</p>
+    {% endif %}
+
+</body>
+</html>

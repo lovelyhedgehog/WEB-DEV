@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Categories</title>
+    <style>
+        a {
+            text-align: center;
+        }
+        ul {
+        }
+    </style>
+</head>
+<body>
+    {% if categories %}
+        <ul>
+        {% for category in categories %}
+            <h2><a href="{% url 'api:categories_list' %}">{{ category.name }}</a></h2>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No categories are available.</p>
+    {% endif %}
+</body>
+</html>

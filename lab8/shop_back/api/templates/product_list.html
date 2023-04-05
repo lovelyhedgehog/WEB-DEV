@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    {% if products %}
+        <ul>
+        {% for product in products %}
+            <li><h2><a href="{% url 'api:product_detail' product.id %}">{{ product.name }}</a></h2></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No products are available.</p>
+    {% endif %}
+
+</body>
+</html>
